@@ -1,0 +1,180 @@
+@font-face {
+    src: url(../asset/fonts/RobotoCondensed-Bold.ttf);
+    font-family: 'Roboto condensed', sans-serif;  
+}
+
+.wrapper {
+  width: 980px;
+  height: 490px;
+  font-family: 'Roboto condensed', sans-serif; 
+  padding: 0;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+}
+/* -----------HEADER-TOP------------ */
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 14px;
+  background-color: #4B4B4B;
+  padding: 40px;
+}
+
+.header--logo {
+  flex: 1;
+}
+
+.header--logo a {
+  font-size: 20px;
+  color: #EBCB80;
+}
+
+.header--list {
+  font-size: 10px;
+  margin-left: 5%; 
+}
+
+.list--border-bottom:hover {
+  border-bottom: 1px solid #fff;
+  margin-top: 5px;
+}
+
+.header--list a {
+  color: #fff;
+}
+
+.list--border {
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.list--border:hover {
+  color: rgb(194, 163, 163);
+  border: 1px solid rgb(194, 163, 163);
+}
+
+/* -----------HEADER-BOTTOM--------- */
+.header-bottom {
+  width: 100%;
+  position: relative;
+}
+
+.header--bg {
+  width: 100%;
+}
+
+.header--para {
+  position: absolute;
+  top: 122px;
+  left: 215px;
+}
+
+.big {
+  font-size: 30px;
+}
+
+.small {
+  font-size: 13px;
+  top: 170px;
+  left: 40%;
+}
+
+.header--tools {
+  position: absolute;
+  top: 200px;
+  left: 30%;
+}
+
+.email {
+  padding: 10px 20px;
+  text-align: left;
+  border: 1px solid #4B4B4B;
+  border-radius: 5px;
+}
+
+.find {
+  left: 53%;
+}
+
+.find button {
+  border: none;
+  border: 1px solid #4B4B4B;
+  border-radius: 15px;
+  padding: 9% 30px;
+  outline: none;
+  background-color: transparent;
+  color: #4B4B4B;
+}
+
+.find button:hover { 
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header--icon {
+  position: absolute;
+  top: 250px;
+  right: 60%;
+  background-color: #4B4B4B;
+  color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.header--icons {
+  display: flex;
+  position: absolute;
+  top: 250px;
+  right: 50%;
+  background-color: #4B4B4B;
+  color: #fff;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.header--iconz {
+  position: absolute;
+  top: 250px;
+  right: 40%;
+  background-color: #4B4B4B;
+  color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.header--icon img {
+  width: 20px;
+}
+
+.header--icons img {
+  width: 20px;
+}
+
+.header--iconz img {
+  width: 20px;
+}
+
+.header--icon:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.header--icons:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.header--iconz:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  border-radius: 50%;
+}
