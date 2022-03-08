@@ -1,7 +1,126 @@
 @font-face {
-    src: url(/asset/fonts/Mulish/static/Mulish-Regular.ttf);
-    font-family: Mulish;
+  src: url(/asset/fonts/Mulish/static/Mulish-Regular.ttf);
+  font-family: Mulish;
+}
+:root {
+  --primary-color: #1968FC;
+  --second-color: #000000;
 }
 body {
-    font-family: Mulish;
+font-family: Mulish;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.logo-link {
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 35px;
+  color: var(--primary-color);
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-items: center;
+}
+
+#main-menu {
+  display: flex;
+  justify-items: center;
+  margin-left: 17%;
+}
+
+.list {
+  margin-top: 6%;
+  margin-left: 30px;
+}
+
+.list-link {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.list-link:hover {
+  color: var(--primary-color);
+}
+
+.btn {
+  font-weight: 100;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 13px 13px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #1750bb;
+}
+
+#footer {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-items: center;
+  background-color: #FBFBFB;
+}
+
+.logo-footer {
+  margin-top: 5%;
+  margin-left: 35px;
+  font-size: 11px;
+}
+
+.logo-footer span {
+  color: #1968FC;
+  background-color: #5e94f859;
+  padding: 7px;
+  padding-bottom: 8px;
+  margin-right: 0;
+}
+
+.small {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-list {
+  display: flex;
+  margin-left: 16%;
+}
+
+.footer-list li {
+  margin: 0 9px;
+}
+
+.text{
+  display: block;
+  font-size: 13px;
+  color: var(--second-color);
+  padding-top: 55px;
+}
+
+.text:hover {
+  color: #1968FC;
+}
+
+.icons {
+  display: block;
+  padding-left: 40px;
+}
+
+.suporter {
+  display: block;
+  margin-left: 20%;
 }
