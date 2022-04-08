@@ -12,7 +12,7 @@ font-family: Mulish;
 
 
 .container {
-  width: 1120px;
+  width: 1140px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -24,8 +24,9 @@ font-family: Mulish;
 .logo-link {
   display: block;
   font-size: 20px;
-  padding: 4px;
   color: var(--primary-color);
+  padding: auto;
+  margin: 0;
 }
 
 .logo {
@@ -34,17 +35,16 @@ font-family: Mulish;
 
 nav {
   display: flex;
-  justify-items: center;
+  align-items: center;
 }
 
 .menu {
   display: flex;
-  justify-items: flex-end;
-  margin-left: 17%;
+  margin-left: 200px;
 }
 
 .menu-item {
-  padding: 20px 30px;
+  padding: 0px 30px;
 }
 
 .items-link {
@@ -65,6 +65,7 @@ nav {
   color: #ffffff;
   background-color: var(--primary-color);
   padding: 13px 13px;
+  margin: 0 15px;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -91,19 +92,20 @@ nav {
 }
 
 .subtext-banner {
-  width: 390px;
-  font-size: 13px;
+  width: 600px;
+  font-size: 20px;
   line-height: 30px;
   margin-top: 20px;
 }
 
 .banner-button{
+  width: 300px;
   outline: none;
   border: none;
   background: transparent;
   color: #ffffff;
   background-color: var(--primary-color);
-  padding: 13px 25px;
+  padding: 13px 13px;
   margin-top: 40px;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -116,7 +118,7 @@ nav {
 .symbol {
   position: absolute;
   top: 69px;
-  left: 480px;
+  left: 520px;
 }
 
 /* ------------TESTIMONIAL------------------- */
@@ -177,21 +179,23 @@ nav {
 
 .test-girl {
   position: absolute;
-  top: 529px;
-  left: 693px;
+  top: 521px;
+  left: 720px;
 }
 
 /* --------------------------FOOTER-------------------- */
 /* -------------------------------------------------------- */
 
-.footer {
-  display: flex;
-  justify-items: center;
+footer {
   background-color: #FBFBFB;
 }
 
+.footer-block {
+  display: flex;
+}
+
 .logo-footer {
-  margin-top: 5%;
+  margin-top: 53px;
   font-size: 11px;
 }
 
@@ -230,7 +234,7 @@ nav {
 .footer-icon {
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  padding: 0 25px;
 }
 
 .icons {
