@@ -31,8 +31,7 @@ At here, you will style your code HTML to make your site an interesting.
 
 4. Back the `index.html` file
 
-You use Alt+L Alt+O, press right button mouse -> Open with liveserver or you see right corner your screen
-and click "Go Live" symbol to look your site was code
+You see right corner your screen and click "Go Live" item to look your site was code.
 
 ## Slice UI from Figma to HTML site with CSS
 
