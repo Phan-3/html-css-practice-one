@@ -2,16 +2,13 @@
   src: url(/src/assets/fonts/Mulish/static/Mulish-Regular.ttf);
   font-family: Mulish;
 }
+
 :root {
   --primary-color: #1968FC;
   --second-color: #000;
 }
-body {
-font-family: Mulish;
-}
 
 /* Container */
-
 .container {
   width: 1140px;
   max-width: 100%;
@@ -20,11 +17,6 @@ font-family: Mulish;
 }
 
 /* Header Section */
-
-header {
-  margin-top: 30px;
-}
-
 .logo-link {
   display: block;
   font-size: 20px;
@@ -42,6 +34,7 @@ header {
   align-items: center;
 }
 
+/* Menu */
 .menu {
   display: flex;
   margin-left: 200px;
@@ -64,12 +57,14 @@ header {
   color: var(--primary-color);
 }
 
+/* Button */
 .btn {
   font-weight: 100;
   color: #fff;
   background-color: var(--primary-color);
   padding: 13px 13px;
   margin: 0 15px;
+  text-transform: uppercase;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -79,7 +74,6 @@ header {
 }
 
 /* Banner Section */
-
 .banner {
   position: relative;
 }
@@ -101,7 +95,7 @@ header {
   margin-top: 20px;
 }
 
-.banner-button{
+.banner-button {
   width: 300px;
   padding: 13px 13px;
   margin-top: 40px;
@@ -127,7 +121,6 @@ header {
 }
 
 /* Testimonials Section */
-
 .testimonial-wrapper {
   max-width: 429px;
   margin-top: 217px;
@@ -162,12 +155,7 @@ header {
   color: var(--primary-color);
   font-size: 14px;
   font-weight: 400;
-}
-
-.testimonial-name span {
-  display: block;
-  font-weight: 400;
-}
+} 
 
 .testimonial-work {
   width: 100%;
@@ -188,12 +176,6 @@ header {
 }
 
 /* Footer Section */
-
-footer {
-  background-color: #FBFBFB;
-  margin-bottom: 21px;
-}
-
 .footer-block {
   display: flex;
 }
@@ -234,6 +216,7 @@ footer {
 .text:hover {
   color: #1968FC;
 }
+
 .footer-icon {
   display: flex;
   align-items: center;
